@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/ >
+		<title>Smoothed D3.js Radar Chart</title>
+
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+		<!-- D3.js -->
+		<!-- <script src="offline-scripts/d3.min.js" charset="utf-8"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+			<link rel="stylesheet" href="iframe.css">
+		
+		  
+		
+	
+	</head>
+	<body>
+
+		<div class="radarChart"></div>
+
+		<script src="radarchart.js"></script>	
+		<script>
+      
+      /* Radar chart design created by Nadieh Bremer - VisualCinnamon.com */
+      
+			////////////////////////////////////////////////////////////// 
+			//////////////////////// Set-Up ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+				width = 370,
+				height = 370;
+					
+			////////////////////////////////////////////////////////////// 
+			////////////////////////// Data ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+            //This graph is a bit tortured, essentially I'm trying to show things with their opposites. Looks cool though.
+			var data = [
+						[//Personal Projects
+						{axis:"Jack of All Trades",value:1.0},
+						{axis:"Tear Down and Start Fresh",value:1.0},
+						{axis:"Early Adopter",value:0.75},
+						{axis:"Emphasize Speed",value:1.0},
+						{axis:"Focus on Improving Processes",value:0.0},	
+                        //Opposite categories
+						{axis:"Specialist",value:0.0},
+						{axis:"Understand and Improve Other People's Code",value:0.0},
+						{axis:"Tried and True",value:0.25},
+						{axis:"Emphasize Long-Term Stability",value:0.0},
+						{axis:"Focus on Delivering Features",value:1.0},
+					  ],
+					  [//When I work with Startups
+						{axis:"Jack of All Trades",value:0.9},
+						{axis:"Tear Down and Start Fresh",value:0.5},
+						{axis:"Early Adopter",value:0.25},
+						{axis:"Emphasize Speed",value:0.9},
+						{axis:"Focus on Improving Processes",value:0.1},	
+                        //Opposite categories
+						{axis:"Specialist",value:0.1},
+						{axis:"Understand and Improve Other People's Code",value:0.5},
+						{axis:"Tried and True",value:0.75},
+						{axis:"Emphasize Long-Term Stability",value:0.1},
+						{axis:"Focus on Delivering Features",value:0.9},
+					  ],[//When I work with Large Teams
+                      {axis:"Jack of All Trades",value:0.5},
+						{axis:"Tear Down and Start Fresh",value:0.1},
+						{axis:"Early Adopter",value:0.1},
+						{axis:"Emphasize Speed",value:0.2},
+						{axis:"Focus on Improving Processes",value:0.7},	
+                        //Opposite categories
+						{axis:"Specialist",value:0.5},
+						{axis:"Understand and Improve Other People's Code",value:0.9},
+						{axis:"Tried and True",value:0.9},
+						{axis:"Emphasize Long-Term Stability",value:0.8},
+						{axis:"Focus on Delivering Features",value:0.3},
+					  ]
+					];
+			////////////////////////////////////////////////////////////// 
+			//////////////////// Draw the Chart ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var color = d3.scale.ordinal()
+				.range(["#EDC951","#CC333F","#00A0B0"]);
+				
+			var radarChartOptions = {
+			  w: width,
+			  h: height,
+			  margin: margin,
+			  maxValue: 1.0,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: color
+			};
+			//Call function to draw the Radar chart
+			RadarChart(".radarChart", data, radarChartOptions);
+		</script>
+	</body>
+</html>
