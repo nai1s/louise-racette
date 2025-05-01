@@ -3,325 +3,325 @@
         
         {
             "id": "DevOps",
-            "image":"/assets/devops_rocket.png",
+            "image":"/assets/images/technologies/devops_rocket.png",
             "strength": 2.0,
             "group": 7
         },
         {
             "id": "Machine Learning",
-            "image":"/assets/machine_learning.png",
+            "image":"/assets/images/technologies/machine_learning.png",
             "strength": 1.5,
             "group": 1
         },
         {
             "id": "Tensorflow",
-            "image":"/assets/tensorflow.png",
+            "image":"/assets/images/technologies/tensorflow.png",
             "strength": 1.5,
             "group": 1
         },
         {
             "id": "Tensorflow Lite",
-            "image":"/assets/tflite.png",
+            "image":"/assets/images/technologies/tflite.png",
             "strength": 1.5,
             "group": 1
         },
         {
             "id": "Mobile",
-            "image":"/assets/mobile.png",
+            "image":"/assets/images/technologies/mobile.png",
             "strength": 1.5,
             "group": 2
         },
         {
             "id": "Android SDK",
-            "image":"/assets/android.png",
+            "image":"/assets/images/technologies/android.png",
             "strength": 1.5,
             "group": 2
         },
         {
             "id": "iOS",
-            "image":"/assets/iOS.png",
+            "image":"/assets/images/technologies/iOS.png",
             "strength": 0.5,
             "group": 2
         },
         {
             "id": "Flutter",
-            "image":"/assets/flutter.png",
+            "image":"/assets/images/technologies/flutter.png",
             "strength": 1.0,
             "group": 2
         },
         {
             "id": "Progressive Web Apps",
-            "image":"/assets/pwa.png",
+            "image":"/assets/images/technologies/pwa.png",
             "strength": 1.0,
             "group": 2
         },
         {
             "id": "Backend",
-            "image":"/assets/backend.png",
+            "image":"/assets/images/technologies/backend.png",
             "strength": 2.0,
             "group": 3
         },
         {
             "id": "C#",
-            "image":"/assets/csharp.png",
+            "image":"/assets/images/technologies/csharp.png",
             "strength": 1.5,
             "group": 3
         },
         {
             "id": "ASP.NET",
-            "image":"/assets/asp_net.png",
+            "image":"/assets/images/technologies/asp_net.png",
             "strength": 1.5,
             "group": 3
         },
         {
             "id": "C++",
-            "image":"/assets/cpp.png",
+            "image":"/assets/images/technologies/cpp.png",
             "strength": 1.5,
             "group": 3
         },
         {
             "id": "Java",
-            "image":"/assets/java.png",
+            "image":"/assets/images/technologies/java.png",
             "strength": 1.5,
             "group": 3
         },
         {
             "id": "Python",
-            "image":"/assets/python.png",
+            "image":"/assets/images/technologies/python.png",
             "strength": 1.3,
             "group": 3
         },
         {
             "id": "Perl",
-            "image":"/assets/perl.png",
+            "image":"/assets/images/technologies/perl.png",
             "strength": 0.5,
             "group": 3
         },
         {
             "id": "Go",
-            "image":"/assets/go.png",
+            "image":"/assets/images/technologies/go.png",
             "strength": 0.5,
             "group": 3
         },
         {
             "id": "PHP",
-            "image":"/assets/php.png",
+            "image":"/assets/images/technologies/php.png",
             "strength": 0.5,
             "group": 3
         },
         {
             "id": "Node.JS",
-            "image":"/assets/nodejs.png",
+            "image":"/assets/images/technologies/nodejs.png",
             "strength": 1.5,
             "group": 3
         },
         {
             "id": "Frontend",
-            "image":"/assets/frontend.png",
+            "image":"/assets/images/technologies/frontend.png",
             "strength": 0.9,
             "group": 4
         },
         {
             "id": "JavaScript",
-            "image":"/assets/javascript.png",
+            "image":"/assets/images/technologies/javascript.png",
             "strength": 1.2,
             "group": 4
         },
         {
             "id": "HTML",
-            "image":"/assets/html.png",
+            "image":"/assets/images/technologies/html.png",
             "strength": 0.75,
             "group": 4
         },
         {
             "id": "CSS",
-            "image":"/assets/css.png",
+            "image":"/assets/images/technologies/css.png",
             "strength": 0.75,
             "group": 4
         },
         {
             "id": "Basic",
-            "image":"/assets/basic.png",
+            "image":"/assets/images/technologies/basic.png",
             "strength": 0.5,
             "group": 4
         },
         {
             "id": "React",
-            "image":"/assets/react.png",
+            "image":"/assets/images/technologies/react.png",
             "strength": 0.75,
             "group": 4
         },
         {
             "id": "Angular",
-            "image":"/assets/angular.png",
+            "image":"/assets/images/technologies/angular.png",
             "strength": 0.75,
             "group": 4
         },
         {
             "id": "Firmware",
-            "image":"/assets/firmware.png",
+            "image":"/assets/images/technologies/firmware.png",
             "strength": 1.5,
             "group": 5
         },
         {
             "id": "Arduino",
-            "image":"/assets/arduino.png",
+            "image":"/assets/images/technologies/arduino.png",
             "strength": 1.3,
             "group": 5
         },
         {
             "id": "ARM",
-            "image":"/assets/arm.png",
+            "image":"/assets/images/technologies/arm.png",
             "strength": 0.5,
             "group": 5
         },
         {
             "id": "x86",
-            "image":"/assets/x86.png",
+            "image":"/assets/images/technologies/x86.png",
             "strength": 0.5,
             "group": 5
         },
         { 
             "id": "VHDL",
-            "image":"/assets/vhdl.png",
+            "image":"/assets/images/technologies/vhdl.png",
             "strength": 0.5,
             "group": 5
         },
         {
             "id": "Embedded C (PIC)",
-            "image":"/assets/embedded-c.png",
+            "image":"/assets/images/technologies/embedded-c.png",
             "strength": 1.5,
             "group": 5
         },
         {
             "id": "Databases",
-            "image":"/assets/database.png",
+            "image":"/assets/images/technologies/database.png",
             "strength": 2.0,
             "group": 6
         },
         {
             "id": "SQL Server",
-            "image":"/assets/sql_server.png",
+            "image":"/assets/images/technologies/sql_server.png",
             "strength": 1.9,
             "group": 6
         },
         {
             "id": "Database Replication/Failover",
-            "image":"/assets/database-replication.png",
+            "image":"/assets/images/technologies/database-replication.png",
             "strength": 1.9,
             "group": 6
         },
         {
             "id": "SQLite",
-            "image":"/assets/sqlite.png",
+            "image":"/assets/images/technologies/sqlite.png",
             "strength": 1.0,
             "group": 6
         },
         {
             "id": "Couchbase",
-            "image":"/assets/couchbase.png",
+            "image":"/assets/images/technologies/couchbase.png",
             "strength": 1.5,
             "group": 6
         },
         {
             "id": "Redis",
-            "image":"/assets/redis.png",
+            "image":"/assets/images/technologies/redis.png",
             "strength": 1.0,
             "group": 6
         },
         {
             "id": "POSTGres",
-            "image":"/assets/postgres.png",
+            "image":"/assets/images/technologies/postgres.png",
             "strength": 1.7,
             "group": 6
         },
         {
             "id": "MySQL",
-            "image":"/assets/mysql.png",
+            "image":"/assets/images/technologies/mysql.png",
             "strength": 1.7,
             "group": 6
         },
         {
             "id": "Azure CI/CD",
-            "image":"/assets/azure-devops.png",
+            "image":"/assets/images/technologies/azure-devops.png",
             "strength": 1.5,
             "group": 7
         },
         {
             "id": "Docker",
-            "image":"/assets/docker.png",
+            "image":"/assets/images/technologies/docker.png",
             "strength": 1.9,
             "group": 7
         },
         {
             "id": "Kubernetes",
-            "image":"/assets/kubernetes.png",
+            "image":"/assets/images/technologies/kubernetes.png",
             "strength": 1.5,
             "group": 7
         },
         {
             "id": "Helm",
-            "image":"/assets/helm.png",
+            "image":"/assets/images/technologies/helm.png",
             "strength": 1.0,
             "group": 7
         },
         {
             "id": "Terraform",
-            "image":"/assets/terraform.png",
+            "image":"/assets/images/technologies/terraform.png",
             "strength": 1.5,
             "group": 7
         },
         {
             "id": "AWS",
-            "image":"/assets/aws.png",
+            "image":"/assets/images/technologies/aws.png",
             "strength": 1.0,
             "group": 7
         },
         {
             "id": "Azure Hosting",
-            "image":"/assets/azure.png",
+            "image":"/assets/images/technologies/azure.png",
             "strength": 1.5,
             "group": 7
         },
         {
             "id": "Hetzner",
-            "image":"/assets/hetzner.png",
+            "image":"/assets/images/technologies/hetzner.png",
             "strength": 1.5,
             "group": 7
         },
         {
             "id": "ElasticSearch",
-            "image":"/assets/elastic.png",
+            "image":"/assets/images/technologies/elastic.png",
             "strength": 1.0,
             "group": 7
         },
         {
             "id": "Git",
-            "image":"/assets/git.png",
+            "image":"/assets/images/technologies/git.png",
             "strength": 1.9,
             "group": 7
         },
         {
             "id": "Terminals",
-            "image":"/assets/terminal.png",
+            "image":"/assets/images/technologies/terminal.png",
             "strength": 2.0,
             "group": 8
         },
         {
             "id": "BASH",
-            "image":"/assets/bash.png",
+            "image":"/assets/images/technologies/bash.png",
             "strength": 1.9,
             "group": 8
         },     
         {
             "id": "CMD",
-            "image":"/assets/cmd.png",
+            "image":"/assets/images/technologies/cmd.png",
             "strength": 1.0,
             "group": 8
         },     
         {
             "id": "Powershell",
-            "image":"/assets/powershell.png",
+            "image":"/assets/images/technologies/powershell.png",
             "strength": 1.3,
             "group": 8
         }
