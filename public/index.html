@@ -49,9 +49,9 @@
 		            </div><!--//profile-->
 			    </div><!--//col-->
 	            <div class="col-12 col-md-auto">
-		            <div class="dark-mode-switch d-flex">
-						<div class="form-check form-switch mx-auto mx-md-0">
-							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+		            <div class="dark-mode-switch d-flex" style="display:none">
+						<div class="form-check form-switch mx-auto mx-md-0" style="display:none">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" checked/>
 							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
 						</div>
 			        </div><!--//dark-mode-switch-->
@@ -264,7 +264,12 @@
                 <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
         </div><!--//container-->
     </footer><!--//footer-->
- 
+
+    <script>
+        document.body.setAttribute("data-theme", "dark");
+        localStorage.setItem("darkSwitch", "dark");
+    </script>
+    
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
