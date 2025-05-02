@@ -44,7 +44,7 @@
           .attr("text-anchor", "end")
           .attr("x", width/2 )
           .attr("y", height + 40)
-          .text("Languages I've Used");
+          .text(captionText);
     
       // Create a Y scale for densities
       var y = d3.scaleLinear()
