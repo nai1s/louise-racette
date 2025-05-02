@@ -42,7 +42,7 @@
       // Add X axis label:
       svg.append("text")
           .attr("text-anchor", "end")
-          .attr("x", width/2 )
+          .attr("x", width/2 + 40 )
           .attr("y", height + 40)
           .text(captionText);
     
