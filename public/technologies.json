@@ -324,7 +324,44 @@
             "image":"/assets/images/technologies/powershell.png",
             "strength": 1.3,
             "group": 8
+        },
+        {
+            "id": "Github Actions",
+            "image":"/assets/images/technologies/github.png",
+            "strength": 1.5,
+            "group": 7
+        },
+        {
+            "id": "Salesforce",
+            "image":"/assets/images/technologies/salesforce.png",
+            "strength": 2.0,
+            "group": 9
+        },
+        {
+            "id": "SOQL",
+            "image":"/assets/images/technologies/soql.png",
+            "strength": 1.5,
+            "group": 9
+        },
+        {
+            "id": "APEX",
+            "image":"/assets/images/technologies/apex.png",
+            "strength": 1.5,
+            "group": 9
+        },
+        {
+            "id": "LWC",
+            "image":"/assets/images/technologies/lwc.png",
+            "strength": 1.0,
+            "group": 9
+        },
+        {
+            "id": "Visualforce",
+            "image":"/assets/images/technologies/visualforce.png",
+            "strength": 1.2,
+            "group": 9
         }
+
     ],
     "links": [
         {
@@ -395,6 +432,12 @@
         },
         {
             "source": "DevOps",
+            "target": "Github Actions",
+            "group":7,
+            "value": 10
+        },
+        {
+            "source": "DevOps",
             "target": "Databases",
             "group":8,
             "value": 1
@@ -420,6 +463,12 @@
         {
             "source": "DevOps",
             "target": "Databases",
+            "group":8,
+            "value": 1
+        },
+        {
+            "source": "DevOps",
+            "target": "Salesforce",
             "group":8,
             "value": 1
         },
@@ -707,6 +756,42 @@
             "target": "JavaScript",
             "group":4,
             "value": 5
+        },
+        {
+            "source": "Salesforce",
+            "target": "SOQL",
+            "group":9,
+            "value": 10
+        },
+        {
+            "source": "Databases",
+            "target": "SOQL",
+            "group":9,
+            "value": 5
+        },
+        {
+            "source": "Salesforce",
+            "target": "APEX",
+            "group":9,
+            "value": 10
+        },
+        {
+            "source": "Salesforce",
+            "target": "LWC",
+            "group":9,
+            "value": 10
+        },
+        {
+            "source": "Salesforce",
+            "target": "Visualforce",
+            "group":9,
+            "value": 10
+        },
+        {
+            "source": "APEX",
+            "target": "Java",
+            "group":9,
+            "value": 10
         }
     ]
 }

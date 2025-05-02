@@ -32,12 +32,12 @@
       var tickLocationX = height + margin.bottom / 4;
       // Add X axis
       var x = d3.scaleLinear()
-        .domain([2005, 2025])
-        .range([ 2005,2025 ]);
+        .domain([2005, 2030])
+        .range([ 2005,2030 ]);
       var xAxis = svg.append("g")
         .attr("class", "xAxis")
         .attr("transform", "translate(0," + tickLocationX +")")
-        .call(d3.axisBottom(x).tickValues([2005,2010,2015,2020]).tickSize(-height) )
+        .call(d3.axisBottom(x).tickValues([2005,2010,2015,2020,2025]).tickSize(-height) )
     
       // Add X axis label:
       svg.append("text")
@@ -120,7 +120,7 @@
       xAxis
         .transition()
         .duration(10)
-        .call(d3.axisBottom(x).tickValues([2005,2010,2015,2020]).tickSize(-height).tickFormat(x => x.toString()) )
+        .call(d3.axisBottom(x).tickValues([2005,2010,2015,2020,2025]).tickSize(-height).tickFormat(x => x.toString()) )
         .select(".domain").remove()
     
       // Animate densities apparition
