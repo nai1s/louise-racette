@@ -19,7 +19,7 @@ docker run -p 8080:8080 --rm -it swarmidentity/resume:caddy
 # Push to remote
 ```
 docker login
-docker push swarmidentity/resume
+docker push swarmidentity/resume:caddy
 ```
 
 # On remote server
