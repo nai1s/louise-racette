@@ -35,7 +35,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ env.DOCKER_IMAGE }}:latest
+            ${{ env.DOCKER_IMAGE }}:caddy
             ${{ env.DOCKER_IMAGE }}:${{ github.sha }}
 
   deploy:
@@ -48,7 +48,7 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          password: ${{ secrets.SSH_PASSWORD }} #Generally an SSH key would be better, in this case a password is fine (this site is low security)
           port: ${{ secrets.SSH_PORT || '22' }}
           script_stop: true
           script: |
