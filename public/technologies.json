@@ -100,7 +100,7 @@
         {
             "id": "Go",
             "image":"/assets/images/technologies/go.png",
-            "strength": 0.5,
+            "strength": 1.0,
             "group": 3
         },
         {
